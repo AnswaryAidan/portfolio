@@ -19,7 +19,6 @@ const Header = ({ siteTitle }) => (
       <nav>
         <ul>
           <li>
-            {" "}
             <Link
               to="/"
               style={{
@@ -31,9 +30,8 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li>
-            {" "}
             <Link
-              to="/about/"
+              to="/about"
               style={{
                 color: `white`,
                 textDecoration: `none`,
@@ -43,9 +41,8 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li>
-            {" "}
             <Link
-              to="/skills/"
+              to="/skills"
               style={{
                 color: `white`,
                 textDecoration: `none`,
@@ -55,9 +52,8 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li>
-            {" "}
             <Link
-              to="/projects/"
+              to="/projects"
               style={{
                 color: `white`,
                 textDecoration: `none`,
@@ -67,9 +63,8 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li>
-            {" "}
             <Link
-              to="/contact/"
+              to="/contact"
               style={{
                 color: `white`,
                 textDecoration: `none`,

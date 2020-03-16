@@ -5,9 +5,9 @@ import SEO from "../components/seo"
 const SkillsPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <div className="hero">
+    <div className="hero text-white">
       <div>
-        <h1 className="bg-gray-200">Skills</h1>
+        <h1 className="text-6xl">Skills</h1>
       </div>
       <div>
         <p>Skills</p>

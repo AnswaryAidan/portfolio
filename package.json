@@ -20,6 +20,10 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.0",
+    "postcss-nested": "^4.2.1",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -27,10 +31,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build:css": "postcss src/styles/main.css -o src/index.css",
+    "watch:css": "postcss src/styles/main.css -o src/index.css -w",
+    "start": "npm-run-all -p watch:css start-js",
+    "start-js": "npm run develop",
+    "build-js": "gatsby build",
+    "build": "npm-run-all build:css build-js",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

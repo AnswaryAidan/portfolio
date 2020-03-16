@@ -1,21 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
     <div className="hero">
       <div>
         <h1>Projects</h1>
       </div>
-      <div>
-        <p>Fullstack Developer</p>
-      </div>
+      <div>Projects</div>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default ProjectsPage

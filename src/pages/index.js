@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="flex flex-col justify-center items-center text-white">
+    <div className="flex flex-col justify-center items-center text-white mt-40">
       <div>
-        <h1 className="text-6xl">Hi, IamAnswary</h1>
+        <h1 className="text-5xl">I'm Answary</h1>
       </div>
       <div>
         <p>Fullstack Developer</p>

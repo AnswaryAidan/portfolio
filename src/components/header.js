@@ -8,7 +8,10 @@ const Header = () => {
     <header className="bg-dark-900 sm:flex sm:justify-between">
       <div className="flex items-center justify-between px-4 py-4 text-gray-300">
         <div className="">
-          Answary
+        <Link to="/" >
+        Answary
+        </Link>
+          
         </div>
         <div className="sm:hidden">
           <button
@@ -54,19 +57,13 @@ const Header = () => {
         </div>
       </div>
       <div className={`px-2 py-4 sm:flex sm:justify-around ${open ? 'block' : 'hidden'}`}>
-        <Link to="/" className="block text-white hover:text-redd-900 px-2"  activeClassName="border-b border-redd-900 text-redd-900">
-          Home
-        </Link>
         <Link to="/about" className="block text-white hover:text-redd-900 px-2"  activeClassName="border-b border-redd-900 text-redd-900">
           About
-        </Link>
-        <Link to="/skills" className="block text-white hover:text-redd-900 px-2" activeClassName="border-b border-redd-900 text-redd-900" >
-          Skills
         </Link>
         <Link to="/projects" className="block text-white hover:text-redd-900 px-2"  activeClassName="border-b border-redd-900 text-redd-900">
           Projects
         </Link>
-        <Link  to="/contact" className="block text-white hover:text-redd-900 px-2" activeClassName="border-b border-redd-900 text-redd-900">
+        <Link to="/contact" className="block text-white hover:text-redd-900 px-2" activeClassName="border-b border-redd-900 text-redd-900" >
           Contact
         </Link>
       </div>

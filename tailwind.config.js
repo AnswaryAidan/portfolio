@@ -3,7 +3,7 @@ module.exports = {
     extend: {
       colors: {
         "dark-900" : "#1A1C33",
-        "redd-900" : "#C64051"
+        "redd-900" : "#FA3B3B"
       }
     },
   },

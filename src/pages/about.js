@@ -9,6 +9,8 @@ const AboutPage = () => (
     <div className="flex flex-col justify-center items-center text-white">
       <div>
         <h1 className="text-6xl">About</h1>
+
+        <button className="bg-redd-900 py-2 px-8 focus:outline-none">Resume</button>
       </div>
       <div>
         <p>About</p>
